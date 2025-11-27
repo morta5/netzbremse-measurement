@@ -1,10 +1,9 @@
 services:
   speedtest:
-    build: .
-    image: ghcr.io/akvorrat/netzbremse.de-measurement:latest
+    image: ghcr.io/akvorrat/netzbremse-measurement:latest
     container_name: netzbremse-speedtest
     restart: unless-stopped
-    environment:
+#   environment:
 #     NB_SPEEDTEST_ACCEPT_POLICY: true
     deploy:
       resources:

@@ -61,6 +61,12 @@ To run the script reliably in the background create a Systemd service or use as 
 | `NB_SPEEDTEST_URL` | `https://netzbremse.de/speed` | No |
 | `NB_SPEEDTEST_BROWSER_DATA_DIR` | `./tmp-browser-data` | No |
 
+## Building the Image
+
+```bash
+docker compose -f docker-compose.build.yml build
+```
+
 ## Warning
 
 You should monitor your system or at least periodically check system metrics while running this script.

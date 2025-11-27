@@ -1,0 +1,4 @@
+services:
+  speedtest:
+    build: .
+    image: ghcr.io/akvorrat/netzbremse-measurement:latest
